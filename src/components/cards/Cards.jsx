@@ -1,10 +1,14 @@
-import Card from './Card';
+import Card from "../card/Card";
 
 export default function Cards({ characters }) {
   console.log(characters);
-
+  const cardsContainer = {
+      display: 'flex',
+      flexWrap: 'wrap',
+      justifyContent: 'space-evenly'
+   }
    return (
-      <div>
+      <div style={cardsContainer}>
          {characters.map(character => (
             <Card
             key={character.id}

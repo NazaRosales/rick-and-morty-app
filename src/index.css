@@ -5,6 +5,8 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  background-image: url(https://img.freepik.com/premium-photo/colorful-universe-galaxy-nebula-wallpaper-as-outer-space-concept_786587-2615.jpg);
+  background-size: cover;
 }
 
 code {
